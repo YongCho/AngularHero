@@ -1,5 +1,10 @@
 import { Component } from '@angular/core';
 
+export class Hero {
+  id: number;
+  name: string;
+}
+
 @Component({
   selector: 'my-app',
   template: `
@@ -18,8 +23,4 @@ export class AppComponent {
     id: 1,
     name: 'Windstorm'
   };
-}
-export class Hero {
-  id: number;
-  name: string;
 }
